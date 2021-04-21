@@ -1,5 +1,5 @@
- This workflow will build a Java project with Maven
- For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
+
+ 
 
 name: Java CI with Maven
 
@@ -23,4 +23,4 @@ jobs:
         distribution: 'adopt'
     - name: Test 4 root
       run: curl http://localhost:8080/java-web-project/QuiNExistePas | grep -v
-"<title>HTTP Status 404 – Not Found</title>"
+#"<title>HTTP Status 404 – Not Found</title>";
